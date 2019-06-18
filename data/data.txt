@@ -1,0 +1,417 @@
+[sun]
+texture = textures/sun.png
+radius = 696.342
+flattening = 9e-6
+siderealrot = 27.28
+axialtilt = 7.25
+satellites = mercury:venus:earth:mars:jupiter:saturn:uranus:neptune:pluto
+#satellites = neptune
+shader = sun
+lightsource = true
+color = 0.941218, 0.796625, 0.296112
+
+[mercury]
+texture = textures/mercury.jpg
+semimajoraxis = 57909.100
+radius = 2.4397
+siderealrev = 88
+siderealrot = 58.5
+inclination = 7.00487
+ascendingnode = 48.33167
+argumentperiapsis = 29.12478
+axialtilt = 0.0352
+eccentricity = 0.20563069
+meanAnomaly = 174.796
+color = 0.498135, 0.473295, 0.466939
+
+[venus]
+texture = textures/venus-clouds.jpg
+semimajoraxis = 108208.000
+radius = 6.0518
+siderealrev = 224.7
+siderealrot = -243.0185
+inclination = 3.39
+ascendingnode = 76.67069
+argumentperiapsis = 54.85229
+axialtilt = 177.36
+eccentricity = 0.0068
+meanAnomaly = 50.115
+color = 0.808941, 0.766699, 0.679519
+
+[earth]
+texture = textures/Earth__land_ocean_ice_cloud_2048.jpg
+nightTexture = textures/EarthNight2K.png
+semimajoraxis = 149598.261
+radius = 6.3781
+flattening = 0.0033529
+siderealrev = 365.256363004
+siderealrot = 0.99726968
+inclination = 0
+ascendingnode = 174.873
+argumentperiapsis = 288.064
+axialtilt = 23.4388
+eccentricity = 0.01671022
+meanAnomaly = 357.51716
+satellites = moon
+shader = earth
+#color = 0.196268, 0.19415, 0.252753
+#color = 0.0, 0.4, 0.8
+color = 0.0, 0.29803922, 0.6
+
+[mars]
+texture = textures/mars2k.jpg
+semimajoraxis = 227939.100
+radius = 3.3962
+flattening = 0.00589
+siderealrev = 686.9601
+siderealrot = 1.025957
+inclination = 1.85061
+ascendingnode = 49.578
+argumentperiapsis = 286.46230
+axialtilt = 25.19
+eccentricity = 0.09341233
+meanAnomaly = 19.3564
+color = 0.586319, 0.440984, 0.290452
+
+[jupiter]
+texture = textures/jupiter2k.png
+semimajoraxis = 778547.200
+radius = 71.492
+flattening = 0.06487
+siderealrev = 4332.66855
+siderealrot = 0.413664708
+inclination = 1.30530
+ascendingnode = 100.55615
+argumentperiapsis = 275.066
+axialtilt = 3.13
+eccentricity = 0.04839266
+meanAnomaly = 18.818
+satellites = io:europa:ganymede:callisto
+color = 0.604453, 0.593177, 0.565011
+
+[saturn]
+texture = textures/saturn.jpg
+#texture = textures/saturnmap1k.jpg
+semimajoraxis = 1433449.370
+radius = 60.268
+flattening = 0.09796
+ringTexture = textures/PlanetaryRings/Saturn_Rings1K.png
+#ringTexture = textures/PlanetaryRings/SatRing.png
+innerRadius = 66.900
+outerRadius = 139.380
+siderealrev = 10759.1951
+siderealrot = 0.444009259
+inclination = 2.48446
+ascendingnode = 113.7153281104
+argumentperiapsis = 338.71690
+axialtilt = 26.73
+eccentricity = 0.05415060
+meanAnomaly = 320.346
+satellites = mimas:enceladus:tethys:dione:rhea:titan:iapetus
+color = 0.808803, 0.7723, 0.69408
+
+[uranus]
+texture = textures/uranusmap512.jpg
+semimajoraxis = 2876679.082
+radius = 25.559
+flattening = 0.02293
+#ringTexture = textures/uranusringcolour.jpg
+ringTexture = textures/PlanetaryRings/Uranus_Rings1K.png
+innerRadius = 41.837
+outerRadius = 51.149
+siderealrev = 30685.4216
+siderealrot = -0.718333333
+inclination = 0.772556
+ascendingnode = 73.96250215
+argumentperiapsis = 98.471542
+axialtilt = 97.77
+eccentricity = 0.044405586
+meanAnomaly = 142.955
+satellites = miranda:ariel:umbriel:titania:oberon
+color = 0.599435, 0.688101, 0.717575
+
+[neptune]
+texture = textures/neptunemap.jpg
+semimajoraxis = 4503443.661
+radius = 24.764
+flattening = 0.0171
+ringTexture = textures/PlanetaryRings/Neptune_Rings1K.png
+innerRadius = 40.9
+outerRadius = 62.932
+siderealrev = 60189.3577
+siderealrot = 0.67125
+inclination = 1.76917
+ascendingnode = 131.72169
+argumentperiapsis = 273.24966
+axialtilt = 28.32
+eccentricity = 0.00858587
+meanAnomaly = 267.767281
+satellites = triton
+color = 0.370132, 0.488544, 0.839086
+
+[pluto]
+texture = textures/pluto_color_2k.jpg
+semimajoraxis = 5874000.000
+radius = 1.153
+siderealrev = 90613.3058
+siderealrot = -6.387
+inclination = 17.14175
+ascendingnode = 110.30347
+argumentperiapsis = 113.76329
+axialtilt = 57.5
+eccentricity = 0.25024871
+meanAnomaly = 14.86012204
+color = 0.727542, 0.588767, 0.488476
+
+[moon]
+texture = textures/moon.jpg
+semimajoraxis = 384.399
+radius = 1.73814
+flattening = 0.00125
+siderealrev = 27.321661
+siderealrot = 27.321661
+inclination = 5.145
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.05490
+meanAnomaly = 134.96340251
+color = 0.624817, 0.60306, 0.604413
+
+[io]
+texture = textures/Io.png
+semimajoraxis = 421.800
+radius = 1.8213
+siderealrev = 1.769138
+siderealrot = 1.769138
+inclination = 0.192
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0074
+meanAnomaly = 8.989
+color = 0.563325, 0.464467, 0.381508
+
+[europa]
+texture = textures/europa.jpg
+semimajoraxis = 671.100
+radius = 1.5608
+siderealrev = 3.551181
+siderealrot = 3.551181
+inclination = 0.469
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0094
+meanAnomaly = 20.865
+color = 0.72078, 0.614154, 0.492114
+
+[ganymede]
+texture = textures/ganymede1k.jpg
+semimajoraxis = 1070.400
+radius = 2.6341
+siderealrev = 7.155
+siderealrot = 7.155
+inclination = 0.117
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0013
+meanAnomaly = 292.375
+color = 0.477666, 0.42215, 0.35632
+
+[callisto]
+texture = textures/callisto.jpg
+semimajoraxis = 1882.700
+radius = 2.4103
+siderealrev = 16.6890184
+siderealrot = 16.6890184
+inclination = 0.192
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0074
+meanAnomaly = 109.158
+color = 0.358523, 0.311016, 0.26021
+
+[mimas]
+texture = textures/mimas.jpg
+semimajoraxis = 185.539
+radius = 0.1982
+siderealrev = 0.942
+siderealrot = 0.942
+inclination = 1.566
+ascendingnode = 177.5
+argumentperiapsis = 322.9
+axialtilt = 0
+eccentricity = 0.0206
+meanAnomaly = 100.2
+color = 0.424205, 0.424205, 0.424205
+
+[enceladus]
+texture = textures/enceladus.jpg
+semimajoraxis = 238.042
+radius = 0.2521
+siderealrev = 1.370218
+siderealrot = 1.370218
+inclination = 0.019
+ascendingnode = 137.1
+argumentperiapsis = 334.7
+axialtilt = 0
+eccentricity = 0.00452
+meanAnomaly = 162.0
+color = 0.685894, 0.685894, 0.685894
+
+[tethys]
+texture = textures/tethys.jpg
+semimajoraxis = 294.672
+radius = 0.5311
+siderealrev = 1.88
+siderealrot = 1.88
+inclination = 0.168
+ascendingnode = 149.2
+argumentperiapsis = 149.2
+axialtilt = 0
+eccentricity = 0.0001
+meanAnomaly = 28.8
+color = 0.409529, 0.407884, 0.408913
+
+[dione]
+texture = textures/dione.jpg
+semimajoraxis = 377.415
+radius = 0.5614
+siderealrev = 2.737
+siderealrot = 2.737
+inclination = 0.002
+ascendingnode = 57.7
+argumentperiapsis = 174.0
+axialtilt = 0
+eccentricity = 0.0002
+meanAnomaly = 109.2
+color = 0.614839, 0.614839, 0.614839
+
+[rhea]
+texture = textures/rhea.jpg
+semimajoraxis = 527.068
+radius = 0.7638
+siderealrev = 4.518
+siderealrot = 4.518
+inclination = 0.331
+ascendingnode = 1.095
+argumentperiapsis = 205.9
+axialtilt = 0
+eccentricity = 0.0010
+meanAnomaly = 238.7
+color = 0.466794, 0.466794, 0.466794
+
+[titan]
+texture = textures/titan.jpg
+semimajoraxis = 1221.865
+radius = 2.576
+siderealrev = 15.945447576488629
+siderealrot = 15.945447576488629
+inclination = 0.280
+ascendingnode = 44.05
+argumentperiapsis = 172.7
+axialtilt = 0
+eccentricity = 0.0288
+meanAnomaly = 192.1
+color = 0.511598, 0.384047, 0.228182
+
+[iapetus]
+texture = textures/iapetus.jpg
+semimajoraxis = 3560.854
+radius = 0.7345
+siderealrev = 79.33
+siderealrot = 79.33
+inclination = 7.489
+ascendingnode = 75.58
+argumentperiapsis = 275.9
+axialtilt = 0
+eccentricity = 0.0283
+meanAnomaly = 350.3
+color = 0.610805, 0.593996, 0.579293
+
+[miranda]
+texture = textures/miranda.jpg
+semimajoraxis = 129.900
+radius = 0.2358
+siderealrev = 1.413479
+siderealrot = 1.413479
+inclination = 4.338
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0013
+meanAnomaly = 120
+color = 0.791935, 0.714846, 0.69026
+
+[ariel]
+texture = textures/ariel.jpg
+semimajoraxis = 190.900
+radius = 0.5789
+siderealrev = 2.520
+siderealrot = 2.520
+inclination = 0.260
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0012
+meanAnomaly = 56
+color = 0.468338, 0.397935, 0.34286
+
+[umbriel]
+texture = textures/umbriel.jpg
+semimajoraxis = 266.000
+radius = 0.5847
+siderealrev = 4.144
+siderealrot = 4.144
+inclination = 0.128
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0039
+meanAnomaly = 280
+color = 0.530893, 0.507371, 0.507367
+
+[titania]
+texture = textures/titania.jpg
+semimajoraxis = 436.300
+radius = 0.7884
+siderealrev = 8.706234
+siderealrot = 8.706234
+inclination = 0.340
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0011
+meanAnomaly = 30
+color = 0.623442, 0.545209, 0.485872
+
+[oberon]
+texture = textures/oberon.jpg
+semimajoraxis = 583.500
+radius = 0.7614
+siderealrev = 13.463234
+siderealrot = 13.463234
+inclination = 0.058
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.0014
+meanAnomaly = 150
+color = 0.525954, 0.460242, 0.419977
+
+[triton]
+texture = textures/triton.jpg
+semimajoraxis = 354.759
+radius = 1.3534
+siderealrev = 5.877
+siderealrot = 5.877
+inclination = 156.865
+ascendingnode = 0
+argumentperiapsis = 0
+axialtilt = 0
+eccentricity = 0.000016
+meanAnomaly = 315.726316
+color = 0.727541, 0.711614, 0.726095

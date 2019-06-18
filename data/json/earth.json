@@ -1,0 +1,19 @@
+{
+    "name": "earth",
+
+    "texture": "textures/earth2K.png",
+    "nightTexture": "textures/EarthNight2K.png",
+    "semimajoraxis": "120",
+    "radius": "6.4",
+    "ring": "false ",
+    "siderealrev": "365.256363004",
+    "siderealrot": "0.99726968",
+    "inclination": "0",
+    "ascendingnode": "174.873",
+    "argumentperiapsis": "288.064",
+    "axialtilt": "23.4388",
+    "eccentricity": "0.01671022",
+    "meanAnomaly": "357.51716",
+    "satellites": "moon",
+    "shader": "earth"
+}
